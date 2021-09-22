@@ -60,7 +60,8 @@ int main()
 		scanf("%d",&arr[i]);
 	}
 	Merge(arr,0,n-1);
-	printf("\n\tArray after merge sort :\n\t");
+	printf("\n\tArray after merge sort :\n\t",arr[i]);
+	
 	for(i=0;i<n;i++)
 	{
 		printf("%d ",arr[i]);
